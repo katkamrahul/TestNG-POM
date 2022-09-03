@@ -15,7 +15,7 @@
 			filePattern="${basePath}/automation-%d{yyyy-MM-dd}.log">
 			<PatternLayout
 				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
-			<SizeBasedTriggeringPolicy size="50000" />
+			<SizeBasedTriggeringPolicy size="100000" />
 		</RollingFile>
 	</Appenders>
 
