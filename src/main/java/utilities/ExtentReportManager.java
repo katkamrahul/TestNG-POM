@@ -1,13 +1,13 @@
 package utilities;
 
-import java.io.IOException;
-import java.net.URL;
+//import java.io.IOException;
+//import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import org.apache.commons.mail.DefaultAuthenticator;
-import org.apache.commons.mail.ImageHtmlEmail;
-import org.apache.commons.mail.resolver.DataSourceUrlResolver;
+//import org.apache.commons.mail.DefaultAuthenticator;
+//import org.apache.commons.mail.ImageHtmlEmail;
+//import org.apache.commons.mail.resolver.DataSourceUrlResolver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -25,23 +25,23 @@ public class ExtentReportManager implements ITestListener {
 	public String repName;
 
 	public void onStart(ITestContext testContext) {
-		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date()); // time stamp
+		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date()); 	// time stamp
 		repName = "Test-Report-" + timeStamp + ".html";
 
-		sparkReporter = new ExtentSparkReporter(".\\reports\\" + repName); // location of report
-		sparkReporter.config().setDocumentTitle("Opencart Automation Report"); // Title of report
-		sparkReporter.config().setReportName("Opencart  Functional Testing"); // Name of the report
-		sparkReporter.config().setTheme(Theme.DARK); // Theme of the report
+		sparkReporter = new ExtentSparkReporter(".\\reports\\" + repName); 					// location of report
+		sparkReporter.config().setDocumentTitle("nopCommerce Automation Report"); 			// Title of report
+		sparkReporter.config().setReportName("Opencart Functional Testing"); 				// Name of the report
+		sparkReporter.config().setTheme(Theme.DARK); 										// Theme of the report (DARK / STANDARD)
 
 		extent = new ExtentReports();
 		extent.attachReporter(sparkReporter);
-		extent.setSystemInfo("Application", "opencart");
-		extent.setSystemInfo("Module", "Admin");
-		extent.setSystemInfo("Sub Module", "Customers");
+		extent.setSystemInfo("Application", "nopCommerce");
+		extent.setSystemInfo("Module", "User");
+		extent.setSystemInfo("Sub Module", "Login");
 		extent.setSystemInfo("Operating System", System.getProperty("os.name"));
 		extent.setSystemInfo("User Name", System.getProperty("user.name"));
 		extent.setSystemInfo("Environemnt", "QA");
-		extent.setSystemInfo("Tester name", "rahul");
+		extent.setSystemInfo("Tester name", "Rahul");
 	}
 
 	public void onTestSuccess(ITestResult result) {
@@ -57,13 +57,14 @@ public class ExtentReportManager implements ITestListener {
 		try {
 			String screenshotPath = System.getProperty("user.dir") + "\\screenshots\\" + result.getName() + ".png";
 			test.addScreenCaptureFromPath(screenshotPath);
-		} catch (Exception e) {
+		} 
+		catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
 
 	public void onTestSkipped(ITestResult result) {
-		test = extent.createTest(result.getName()); // test=extent.createTest(result.getTestContext().getName());
+		test = extent.createTest(result.getName()); 				// test=extent.createTest(result.getTestContext().getName());
 		test.createNode(result.getName());
 		test.assignCategory(result.getMethod().getGroups());
 		test.log(Status.SKIP, "Test Skipped");

@@ -15,12 +15,12 @@
 			filePattern="${basePath}/automation-%d{yyyy-MM-dd}.log">
 			<PatternLayout
 				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
-			<SizeBasedTriggeringPolicy size="100000" />
+			<SizeBasedTriggeringPolicy size="50000" />
 		</RollingFile>
 	</Appenders>
 
 	<Loggers>
-		<Root level="All">			<!-- you can use multiple log levels All << Trace << Debug << Info << Warn << Error << Fatal << Off -->
+		<Root level="Info">			<!-- you can use multiple log levels All << Trace << Debug << Info << Warn << Error << Fatal << Off -->
 			<AppenderRef ref="File" />
 			<!-- <AppenderRef ref="Console"/> -->
 		</Root>

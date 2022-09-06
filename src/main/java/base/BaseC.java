@@ -34,8 +34,8 @@ public class BaseC {
 		if(browser.equals("chrome")) {
 			//WebDriverManager.chromedriver().setup();
 			System.setProperty("webdriver.chrome.driver", "browserDrivers/chromedriver.exe");
-			driver = new ChromeDriver();										//Write this line in log file
-			logger.info("Chrome browser launched");
+			driver = new ChromeDriver();
+			logger.info("Chrome browser launched");								//Write this line in log file
 		}
 		else if(browser.equals("firefox")) {
 			//WebDriverManager.firefoxdriver().setup();

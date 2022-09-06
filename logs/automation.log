@@ -1,0 +1,210 @@
+18:24:38.386 [main] INFO  testCases.TC002LoginUser - ----- TEST CASE START :  class testCases.TC002LoginUser
+18:24:42.546 [main] INFO  testCases.TC002LoginUser - Chrome browser launched
+18:24:45.179 [main] INFO  testCases.TC002LoginUser - User is on homepage
+18:24:47.725 [main] INFO  testCases.TC002LoginUser - Clicked on link 'Log in'
+18:24:47.869 [main] INFO  testCases.TC002LoginUser - Entered text in 'Email address'
+18:24:47.988 [main] INFO  testCases.TC002LoginUser - Entered text in 'Password'
+18:24:49.172 [main] INFO  testCases.TC002LoginUser - Clicked on button 'Login'
+18:24:49.303 [main] INFO  testCases.TC002LoginUser - User has successfully logged into his acount
+18:24:49.661 [main] INFO  testCases.TC002LoginUser - All opened browsers/windows closed
+18:24:49.662 [main] INFO  testCases.TC002LoginUser - ----- TEST CASE END :  class testCases.TC002LoginUser
+18:24:49.665 [main] INFO  testCases.TC003LoginUserDataDriven - ----- TEST CASE START :  class testCases.TC003LoginUserDataDriven
+18:24:51.682 [main] INFO  testCases.TC003LoginUserDataDriven - Chrome browser launched
+18:26:24.389 [main] INFO  testCases.TC002LoginUser - ----- TEST CASE START :  class testCases.TC002LoginUser
+18:26:24.465 [main] INFO  testCases.TC003LoginUserDataDriven - ----- TEST CASE START :  class testCases.TC003LoginUserDataDriven
+18:27:16.776 [main] INFO  testCases.TC001RegisterNewUser - ----- TEST CASE START :  class testCases.TC001RegisterNewUser
+18:27:20.325 [main] INFO  testCases.TC001RegisterNewUser - Chrome browser launched
+18:27:30.485 [main] INFO  testCases.TC003LoginUserDataDriven - ----- TEST CASE START :  class testCases.TC003LoginUserDataDriven
+18:27:32.560 [main] INFO  testCases.TC003LoginUserDataDriven - Chrome browser launched
+18:28:33.485 [main] INFO  testCases.TC001RegisterNewUser - ----- TEST CASE START :  class testCases.TC001RegisterNewUser
+18:28:37.247 [main] INFO  testCases.TC001RegisterNewUser - Chrome browser launched
+18:28:46.696 [main] INFO  testCases.TC001RegisterNewUser - User is on homepage
+18:28:50.032 [main] INFO  testCases.TC001RegisterNewUser - Clicked on link 'Register'
+18:28:50.116 [main] INFO  testCases.TC001RegisterNewUser - Selected the gender radio button
+18:28:50.244 [main] INFO  testCases.TC001RegisterNewUser - Entered text in first name
+18:28:50.377 [main] INFO  testCases.TC001RegisterNewUser - Entered text in last name
+18:28:50.535 [main] INFO  testCases.TC001RegisterNewUser - Entered text in email address
+18:28:50.663 [main] INFO  testCases.TC001RegisterNewUser - Entered text in password
+18:28:50.786 [main] INFO  testCases.TC001RegisterNewUser - Entered text in confirm password
+18:28:52.392 [main] INFO  testCases.TC001RegisterNewUser - Clicked on button 'Register'
+18:29:02.429 [main] FATAL testCases.TC001RegisterNewUser - Exception occured :org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[normalize-space()='Your registration completed']"}
+  (Session info: chrome=105.0.5195.54)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-GQCN117', ip: '192.168.43.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0da1e2dba2102f35737fe95dc4f34445, findElement {using=xpath, value=//div[normalize-space()='Your registration completed']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.54, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58735}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58735/devtoo..., se:cdpVersion: 105.0.5195.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0da1e2dba2102f35737fe95dc4f34445
+18:29:02.975 [main] INFO  testCases.TC001RegisterNewUser - All opened browsers/windows closed
+18:29:02.975 [main] INFO  testCases.TC001RegisterNewUser - ----- TEST CASE END :  class testCases.TC001RegisterNewUser
+18:29:02.978 [main] INFO  testCases.TC003LoginUserDataDriven - ----- TEST CASE START :  class testCases.TC003LoginUserDataDriven
+18:29:04.689 [main] INFO  testCases.TC003LoginUserDataDriven - Chrome browser launched
+18:29:05.993 [main] INFO  testCases.TC003LoginUserDataDriven - User is on homepage
+18:29:11.020 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on link 'Log in'
+18:29:11.195 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Email address'
+18:29:11.346 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Password'
+18:29:13.865 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on button 'Login'
+18:29:24.027 [main] FATAL testCases.TC003LoginUserDataDriven - User log in failed
+18:29:34.843 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on link 'Log in'
+18:29:35.019 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Email address'
+18:29:35.168 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Password'
+18:29:35.912 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on button 'Login'
+18:29:36.751 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on link 'Log in'
+18:29:36.918 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Email address'
+18:29:37.062 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Password'
+18:29:38.395 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on button 'Login'
+18:29:39.801 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on link 'Log in'
+18:29:39.916 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Email address'
+18:29:40.029 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Password'
+18:29:41.718 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on button 'Login'
+18:29:42.077 [main] INFO  testCases.TC003LoginUserDataDriven - All opened browsers/windows closed
+18:29:42.078 [main] INFO  testCases.TC003LoginUserDataDriven - ----- TEST CASE END :  class testCases.TC003LoginUserDataDriven
+18:43:31.828 [main] INFO  testCases.TC001RegisterNewUser - ----- TEST CASE START :  class testCases.TC001RegisterNewUser
+18:43:35.521 [main] INFO  testCases.TC001RegisterNewUser - Chrome browser launched
+18:43:38.524 [main] INFO  testCases.TC001RegisterNewUser - User is on homepage
+18:43:40.529 [main] INFO  testCases.TC001RegisterNewUser - Clicked on link 'Register'
+18:43:40.616 [main] INFO  testCases.TC001RegisterNewUser - Selected the gender radio button
+18:43:40.743 [main] INFO  testCases.TC001RegisterNewUser - Entered text in first name
+18:43:40.871 [main] INFO  testCases.TC001RegisterNewUser - Entered text in last name
+18:43:41.025 [main] INFO  testCases.TC001RegisterNewUser - Entered text in email address
+18:43:41.150 [main] INFO  testCases.TC001RegisterNewUser - Entered text in password
+18:43:41.271 [main] INFO  testCases.TC001RegisterNewUser - Entered text in confirm password
+18:43:43.181 [main] INFO  testCases.TC001RegisterNewUser - Clicked on button 'Register'
+18:43:43.220 [main] INFO  testCases.TC001RegisterNewUser - User has successfully created his acount
+18:43:43.480 [main] INFO  testCases.TC001RegisterNewUser - All opened browsers/windows closed
+18:43:43.481 [main] INFO  testCases.TC001RegisterNewUser - ----- TEST CASE END :  class testCases.TC001RegisterNewUser
+18:43:43.484 [main] INFO  testCases.TC003LoginUserDataDriven - ----- TEST CASE START :  class testCases.TC003LoginUserDataDriven
+18:43:45.181 [main] INFO  testCases.TC003LoginUserDataDriven - Chrome browser launched
+18:43:47.882 [main] INFO  testCases.TC003LoginUserDataDriven - User is on homepage
+18:43:53.218 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on link 'Log in'
+18:43:53.368 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Email address'
+18:43:53.521 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Password'
+18:43:54.784 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on button 'Login'
+18:44:02.244 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on link 'Log in'
+18:44:02.319 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Email address'
+18:44:02.411 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Password'
+18:44:02.500 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on button 'Login'
+18:44:03.096 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on link 'Log in'
+18:44:03.248 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Email address'
+18:44:03.370 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Password'
+18:44:03.977 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on button 'Login'
+18:44:04.651 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on link 'Log in'
+18:44:04.833 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Email address'
+18:44:04.981 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Password'
+18:44:05.692 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on button 'Login'
+18:44:06.371 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on link 'Log in'
+18:44:06.520 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Email address'
+18:44:06.647 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Password'
+18:44:07.409 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on button 'Login'
+18:44:07.724 [main] INFO  testCases.TC003LoginUserDataDriven - All opened browsers/windows closed
+18:44:07.725 [main] INFO  testCases.TC003LoginUserDataDriven - ----- TEST CASE END :  class testCases.TC003LoginUserDataDriven
+18:44:08.402 [main] INFO  testCases.TC001RegisterNewUser - ----- TEST CASE START :  class testCases.TC001RegisterNewUser
+18:44:12.893 [main] INFO  testCases.TC001RegisterNewUser - Firefox browser launched
+18:44:14.501 [main] INFO  testCases.TC001RegisterNewUser - User is on homepage
+18:44:16.629 [main] INFO  testCases.TC001RegisterNewUser - Clicked on link 'Register'
+18:44:16.914 [main] INFO  testCases.TC001RegisterNewUser - Selected the gender radio button
+18:44:16.973 [main] INFO  testCases.TC001RegisterNewUser - Entered text in first name
+18:44:17.046 [main] INFO  testCases.TC001RegisterNewUser - Entered text in last name
+18:44:17.127 [main] INFO  testCases.TC001RegisterNewUser - Entered text in email address
+18:44:17.187 [main] INFO  testCases.TC001RegisterNewUser - Entered text in password
+18:44:17.250 [main] INFO  testCases.TC001RegisterNewUser - Entered text in confirm password
+18:44:17.987 [main] INFO  testCases.TC001RegisterNewUser - Clicked on button 'Register'
+18:44:28.052 [main] FATAL testCases.TC001RegisterNewUser - Exception occured :org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[normalize-space()='Your registration completed']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-GQCN117', ip: '192.168.43.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6dc7586b-4722-48ff-baeb-e3a8f6770130, findElement {using=xpath, value=//div[normalize-space()='Your registration completed']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0, moz:accessibilityChecks: false, moz:buildID: 20220904185841, moz:debuggerAddress: 127.0.0.1:60138, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9068, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:60138/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6dc7586b-4722-48ff-baeb-e3a8f6770130
+18:44:29.532 [main] INFO  testCases.TC001RegisterNewUser - All opened browsers/windows closed
+18:44:29.533 [main] INFO  testCases.TC001RegisterNewUser - ----- TEST CASE END :  class testCases.TC001RegisterNewUser
+18:44:29.535 [main] INFO  testCases.TC003LoginUserDataDriven - ----- TEST CASE START :  class testCases.TC003LoginUserDataDriven
+18:44:33.741 [main] INFO  testCases.TC003LoginUserDataDriven - Firefox browser launched
+18:44:35.524 [main] INFO  testCases.TC003LoginUserDataDriven - User is on homepage
+18:44:37.512 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on link 'Log in'
+18:44:37.593 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Email address'
+18:44:37.654 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Password'
+18:44:38.761 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on button 'Login'
+18:44:42.017 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on link 'Log in'
+18:44:42.054 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Email address'
+18:44:42.089 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Password'
+18:44:42.394 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on button 'Login'
+18:44:43.049 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on link 'Log in'
+18:44:43.119 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Email address'
+18:44:43.180 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Password'
+18:44:43.854 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on button 'Login'
+18:44:44.638 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on link 'Log in'
+18:44:44.699 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Email address'
+18:44:44.757 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Password'
+18:44:45.435 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on button 'Login'
+18:44:46.182 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on link 'Log in'
+18:44:46.262 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Email address'
+18:44:46.313 [main] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Password'
+18:44:47.000 [main] INFO  testCases.TC003LoginUserDataDriven - Clicked on button 'Login'
+18:44:48.438 [main] INFO  testCases.TC003LoginUserDataDriven - All opened browsers/windows closed
+18:44:48.438 [main] INFO  testCases.TC003LoginUserDataDriven - ----- TEST CASE END :  class testCases.TC003LoginUserDataDriven
+18:44:48.641 [main] INFO  testCases.TC001RegisterNewUser - ----- TEST CASE START :  class testCases.TC001RegisterNewUser
+18:44:50.472 [main] INFO  testCases.TC001RegisterNewUser - Edge browser launched
+18:45:00.747 [main] INFO  testCases.TC003LoginUserDataDriven - ----- TEST CASE START :  class testCases.TC003LoginUserDataDriven
+18:45:04.243 [main] INFO  testCases.TC003LoginUserDataDriven - Edge browser launched
+18:52:34.013 [TestNG-test=Test-2] INFO  testCases.TC003LoginUserDataDriven - ----- TEST CASE START :  class testCases.TC003LoginUserDataDriven
+18:52:38.825 [TestNG-test=Test-1] INFO  testCases.TC001RegisterNewUser - Chrome browser launched
+18:52:38.837 [TestNG-test=Test-2] INFO  testCases.TC003LoginUserDataDriven - Chrome browser launched
+18:52:42.125 [TestNG-test=Test-2] INFO  testCases.TC003LoginUserDataDriven - User is on homepage
+18:52:43.313 [TestNG-test=Test-1] INFO  testCases.TC001RegisterNewUser - User is on homepage
+18:52:46.953 [TestNG-test=Test-1] INFO  testCases.TC001RegisterNewUser - Clicked on link 'Register'
+18:52:48.086 [TestNG-test=Test-1] INFO  testCases.TC001RegisterNewUser - Selected the gender radio button
+18:52:48.873 [TestNG-test=Test-1] INFO  testCases.TC001RegisterNewUser - Entered text in first name
+18:52:50.601 [TestNG-test=Test-2] INFO  testCases.TC003LoginUserDataDriven - Clicked on link 'Log in'
+18:52:50.631 [TestNG-test=Test-1] FATAL testCases.TC001RegisterNewUser - Exception occured :org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=105.0.5195.54)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-GQCN117', ip: '192.168.43.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ea37e54aec89f5896473dce304aff2c5, sendKeysToElement {id=d042178c-1d0e-4184-b1a5-8d513fa8e1d5, value=[Ljava.lang.CharSequence;@14b3538c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.54, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59295}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59295/devtoo..., se:cdpVersion: 105.0.5195.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ea37e54aec89f5896473dce304aff2c5)] -> xpath: //input[@id='LastName']]
+Session ID: ea37e54aec89f5896473dce304aff2c5
+18:52:50.962 [TestNG-test=Test-2] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Email address'
+18:52:51.227 [TestNG-test=Test-2] FATAL testCases.TC003LoginUserDataDriven - User log in failed
+18:52:51.265 [TestNG-test=Test-2] FATAL testCases.TC003LoginUserDataDriven - User log in failed
+18:52:51.288 [TestNG-test=Test-2] FATAL testCases.TC003LoginUserDataDriven - User log in failed
+18:52:51.295 [TestNG-test=Test-1] INFO  testCases.TC001RegisterNewUser - All opened browsers/windows closed
+18:52:51.296 [TestNG-test=Test-1] INFO  testCases.TC001RegisterNewUser - ----- TEST CASE END :  class testCases.TC001RegisterNewUser
+18:52:51.304 [TestNG-test=Test-2] FATAL testCases.TC003LoginUserDataDriven - User log in failed
+18:52:51.323 [TestNG-test=Test-2] FATAL testCases.TC003LoginUserDataDriven - User log in failed
+18:52:51.336 [TestNG-test=Test-2] INFO  testCases.TC003LoginUserDataDriven - All opened browsers/windows closed
+18:52:51.337 [TestNG-test=Test-2] INFO  testCases.TC003LoginUserDataDriven - ----- TEST CASE END :  class testCases.TC003LoginUserDataDriven
+18:56:37.283 [TestNG-tests-2] INFO  testCases.TC001RegisterNewUser - ----- TEST CASE START :  class testCases.TC001RegisterNewUser
+18:56:41.334 [TestNG-tests-1] INFO  testCases.TC001RegisterNewUser - Chrome browser launched
+18:56:43.068 [TestNG-tests-3] INFO  testCases.TC001RegisterNewUser - Edge browser launched
+18:56:48.427 [TestNG-tests-2] INFO  testCases.TC001RegisterNewUser - Firefox browser launched
+18:56:51.971 [TestNG-tests-1] INFO  testCases.TC003LoginUserDataDriven - ----- TEST CASE START :  class testCases.TC003LoginUserDataDriven
+18:56:53.234 [TestNG-tests-3] INFO  testCases.TC003LoginUserDataDriven - ----- TEST CASE START :  class testCases.TC003LoginUserDataDriven
+18:56:55.050 [TestNG-tests-1] INFO  testCases.TC003LoginUserDataDriven - Chrome browser launched
+18:56:58.598 [TestNG-tests-2] INFO  testCases.TC003LoginUserDataDriven - ----- TEST CASE START :  class testCases.TC003LoginUserDataDriven
+18:56:59.077 [TestNG-tests-3] INFO  testCases.TC003LoginUserDataDriven - Edge browser launched
+18:57:03.534 [TestNG-tests-3] INFO  testCases.TC003LoginUserDataDriven - User is on homepage
+18:57:15.867 [TestNG-tests-3] INFO  testCases.TC003LoginUserDataDriven - Clicked on link 'Log in'
+18:57:16.177 [TestNG-tests-2] INFO  testCases.TC003LoginUserDataDriven - Firefox browser launched
+18:57:16.532 [TestNG-tests-3] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Email address'
+18:57:16.901 [TestNG-tests-3] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Password'
+18:57:20.639 [TestNG-tests-2] INFO  testCases.TC003LoginUserDataDriven - User is on homepage
+18:57:21.645 [TestNG-tests-3] INFO  testCases.TC003LoginUserDataDriven - Clicked on button 'Login'
+18:57:25.217 [TestNG-tests-2] INFO  testCases.TC003LoginUserDataDriven - Clicked on link 'Log in'
+18:57:25.468 [TestNG-tests-2] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Email address'
+18:57:25.601 [TestNG-tests-2] INFO  testCases.TC003LoginUserDataDriven - Entered text in 'Password'
+18:57:27.238 [TestNG-tests-2] INFO  testCases.TC003LoginUserDataDriven - Clicked on button 'Login'
+18:57:31.905 [TestNG-tests-3] FATAL testCases.TC003LoginUserDataDriven - User log in failed
+18:57:37.351 [TestNG-tests-2] FATAL testCases.TC003LoginUserDataDriven - User log in failed
+18:57:47.903 [TestNG-tests-2] FATAL testCases.TC003LoginUserDataDriven - User log in failed
+18:57:47.959 [TestNG-tests-3] FATAL testCases.TC003LoginUserDataDriven - User log in failed
+18:57:58.183 [TestNG-tests-2] FATAL testCases.TC003LoginUserDataDriven - User log in failed
+18:57:58.254 [TestNG-tests-3] FATAL testCases.TC003LoginUserDataDriven - User log in failed
+18:58:08.431 [TestNG-tests-2] FATAL testCases.TC003LoginUserDataDriven - User log in failed
+18:58:08.522 [TestNG-tests-3] FATAL testCases.TC003LoginUserDataDriven - User log in failed
+18:58:10.467 [TestNG-tests-2] INFO  testCases.TC003LoginUserDataDriven - All opened browsers/windows closed
+18:58:10.468 [TestNG-tests-2] INFO  testCases.TC003LoginUserDataDriven - ----- TEST CASE END :  class testCases.TC003LoginUserDataDriven
