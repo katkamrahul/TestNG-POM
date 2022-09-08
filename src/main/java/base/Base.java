@@ -68,7 +68,7 @@ public class Base {
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));		//Page load time out of 30 sec's
 		driver.manage().deleteAllCookies();										//Delete all cookies
 		driver.get(rb.getString("url"));										//Open the URL in browser
-		log.info("User is on homepage");										//Write this line in log file
+		log.info("URL launched, user is on homepage");							//Write this line in log file
 		driver.manage().window().maximize();									//Maximise browser window
 		
 		hp = new HomePage();
